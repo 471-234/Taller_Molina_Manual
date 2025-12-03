@@ -1,4 +1,5 @@
-﻿# TALLER MOLINA
+
+## TALLER MOLINA
 Sistema de Gestión Empresarial desarrollado en C# Windows Forms.
 Incluye módulos de inventario, clientes, proveedores, facturación, control de ventas y dashboard con indicadores clave.
 Diseñado para pequeñas empresas que necesiten una herramienta rápida y funcional.
@@ -40,7 +41,7 @@ Búsqueda global
 Bitácora del sistema
 Permisos por roles
 # Equipo del Proyecto
-Nombre  ---------------                           Rol
+Nombre  ---------------  Rol
 Nayeri Melendres --- Desarrollador Backend
 Nombre 2 --- Analista de Base de Datos
 Nombre 3 --- Diseñador UI / Tester
@@ -61,4 +62,8 @@ README.md -> Portada del proyecto y descripción general
 INSTALL.md -> Cómo instalar y ejecutar el sistema
 DATABASE.md -> Detalle de la base de datos (tablas, triggers, SPs)
 COMMENTS_GUIDE.md -> Guía de comentarios en C# y SQL
+
+
+
+  
 
