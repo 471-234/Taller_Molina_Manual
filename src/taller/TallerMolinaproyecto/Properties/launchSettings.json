@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TallerMolinaproyecto": {
+      "commandName": "Project",
+      "nativeDebugging": false
+    }
+  }
+}

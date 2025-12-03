@@ -1,0 +1,13 @@
+# Archivos temporales de Visual Studio
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.tmp
+*.log
+*.pdb
+
+# Archivos de base de datos locales (si aplica)
+*.mdf
+*.ldf
