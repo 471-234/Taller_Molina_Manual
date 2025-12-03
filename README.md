@@ -1,4 +1,5 @@
 
+
 ## TALLER MOLINA
 Sistema de Gestión Empresarial desarrollado en C# Windows Forms.
 Incluye módulos de inventario, clientes, proveedores, facturación, control de ventas y dashboard con indicadores clave.
@@ -66,4 +67,8 @@ COMMENTS_GUIDE.md -> Guía de comentarios en C# y SQL
 
 
   
+
+
+# Taller_Molina_Manual
+Repositorio oficial para la documentación técnica y manuales de desarrolladores del proyecto Taller Molina
 
