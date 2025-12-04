@@ -1,78 +1,121 @@
+📘 DOCUMENTACIÓN OFICIAL – TALLER MOLINA
+Versión para README / Manual Técnico
+1. Descripción General del Sistema
 
+Taller Molina es un Sistema de Gestión Empresarial desarrollado en C# (.NET 8) bajo arquitectura por capas.
+Está orientado a talleres automotrices y pequeñas empresas que requieren control eficiente de sus operaciones principales: inventarios, facturación, clientes, proveedores y análisis de datos.
 
-## TALLER MOLINA
-Sistema de Gestión Empresarial desarrollado en C# Windows Forms.
-Incluye módulos de inventario, clientes, proveedores, facturación, control de ventas y dashboard con indicadores clave.
-Diseñado para pequeñas empresas que necesiten una herramienta rápida y funcional.
+2. Características Principales
 
-## Tecnologías Utilizadas
-- Backend / Lógica de Negocio
-- C# (.NET 8) – Windows Forms
-- ADO.NET para conexión a base de datos
-- SQL Server 2019 / MySQL 8 (motor dual seleccionable)
-### Frontend (UI)
-- Windows Forms Modern UI
-- Controles personalizados y UserControls dinámicos
-# Base de Datos
-## Motores Soportados
-- SQL Server 2019
-- MySQL Server 8
-- Scripts generados automáticamente (auto-healing DB)
-### Los scripts permiten:
-- Crear base de datos
-- Insertar datos iniciales
-- Reparar tablas inconsistentes
-## Tablas principales
-- CLIENTES
-- EMPLEADOS
-- SERVICIOS
-- REPUESTOS
-- FACTURAS
-- DETALLE_FACTURA
-- PAGOS
-# Pruebas
-## Usuarios de prueba
-Admin: admin / 2006
-## Casos críticos a validar
-Registro de facturas
-Registro de pagos (Factura tipo PAGO)
-Crear factura de servicio
-Actualización de inventario al registrar un servicio
-Búsqueda global
-Bitácora del sistema
-Permisos por roles
-# Equipo del Proyecto
+-Interfaz moderna desarrollada en Windows Forms.
+-Arquitectura modular y escalable.
+-Conexión mediante ADO.NET.
+-Motor de base de datos dual: SQL Server 2019 / MySQL 8.
+-Scripts inteligentes para auto-reparación (Auto-Healing DB).
+-Dashboard con indicadores en tiempo real.
+-Sistema de roles y permisos.
+-Bitácora de actividades del sistema.
 
-| Nombre            | Rol                        |
-|-------------------|----------------------------|
-| Nayeri Melendres  | Desarrollador Backend      |
-| Henrry Zambrano   | Analista de Base de Datos  |
-| Mario Maldonado   | Diseñador UI / Tester      |
-| Osman Orellana    | Documentación              |
+3. Tecnologías Utilizadas
 
+3.1 Backend
 
-# Estado del Proyecto
+-C# (.NET 8 – Windows Forms)
+-ADO.NET para consultas SQL
+-Patrón de arquitectura en capas (UI – BLL – DAL)
+-Manejo de excepciones y logs
+
+3.2 Frontend (UI)
+
+-Windows Forms Modern UI
+-UserControls dinámicos
+-Ajuste automático para pantallas HD
+
+4. Base de Datos
+
+4.1 Motores Soportados
+
+-SQL Server 2019 / 2022
+-MySQL Server 8
+
+4.2 Funciones Auto-Healing
+
+-Crear base de datos automáticamente
+-Crear tablas requeridas
+-Insertar datos iniciales
+-Verificar llaves primarias y foráneas
+-Reparar tablas faltantes o dañadas
+
+4.3 Tablas Principales
+
+1.CLIENTES
+2.EMPLEADOS
+3.SERVICIOS
+4.REPUESTOS
+5.FACTURAS
+6.DETALLE_FACTURA
+7.PAGOS
+8.ROLES
+9.BITACORA
+10.CONFIGURACIÓN
+
+5. Pruebas y Validaciones
+
+5.1 Credenciales de Prueba
+
+Usuario para desarrolladores
+Usuario: admin
+Contraseña: 2006
+
+5.2 Casos Críticos a Probar
+
+1.Registro de facturas
+2.Registro de pagos (Factura tipo PAGO)
+3.Descuento de inventario al facturar
+4.Creación de factura por servicio
+5.Permisos según rol
+6.Búsqueda global del sistema
+7.Registro en bitácora
+8.Dashboard y estadísticas
+
+6. Equipo del Proyecto
+Versión en cuadro ASCII (compatible con Bloc de Notas)
++----------------------+------------------------------+
+| Nombre               | Rol                          |
++----------------------+------------------------------+
+| 1. Nayeri Melendres  | Desarrollador Backend        |
+| 2. Henrry Zambrano   | Analista de Base de Datos    |
+| 3. Mario Maldonado   | Diseñador UI / Tester        |
+| 4. Osman Orellana    | Documentación Técnica        |
++----------------------+------------------------------+
+
+7. Estado del Proyecto
+
 Versión actual: v1.0.0
-Estado: En producción estable
+Estado: Estable en producción
+
 Próximas mejoras:
-Módulo de proveedores ampliado
-Mejoras en dashboard de estadísticas
 
+3.1 Ampliación del módulo de proveedores
+3.2 Mejoras visuales en dashboard
+3.3 Reportes avanzados
+3.4 Módulo de órdenes de trabajo
 
-## Estructura del repositorio
+8. Estructura del Repositorio
+1. /src                -> Código fuente del sistema
+2. /docs               -> Manuales, diagramas y documentación técnica
+3. README.md           -> Descripción general del proyecto
+4. INSTALL.md          -> Guía de instalación y ejecución
+5. DATABASE.md         -> Detalles de tablas, SPs, triggers e índices
+6. COMMENTS_GUIDE.md   -> Normas de comentarios en C# y SQL
+7. CHANGELOG.md        -> Historial de versiones
 
-src/ -> Código fuente del proyecto
-docs/ -> Documentación técnica y diagramas
-README.md -> Portada del proyecto y descripción general
-INSTALL.md -> Cómo instalar y ejecutar el sistema
-DATABASE.md -> Detalle de la base de datos (tablas, triggers, SPs)
-COMMENTS_GUIDE.md -> Guía de comentarios en C# y SQL
+9. Objetivo del Repositorio Taller_Molina_Manual
 
-
-
-  
-
-
-# Taller_Molina_Manual
-Repositorio oficial para la documentación técnica y manuales de desarrolladores del proyecto Taller Molina
-
+Este repositorio reúne toda la documentación oficial:
+Manual técnico para desarrolladores
+Manual de usuario final
+Diagramas de arquitectura y UML
+Procedimiento de instalación y despliegue
+Lineamientos de programación
+Información estructurada del proyecto
