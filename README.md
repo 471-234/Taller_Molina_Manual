@@ -54,7 +54,9 @@ Los scripts permiten:
 # 4. Pruebas del Sistema
 ## 4.1 Usuario de Prueba
 Admin/Desarrollador
+
 Usuario: admin
+
 Contraseña: 2006
 
 ## 4.2 Casos Críticos a Validar
@@ -87,6 +89,7 @@ Contraseña: 2006
 # 6. Estado del Proyecto
 
 Versión actual: v1.0.0
+
 Estado: Estable – En producción
 
 # 6.1 Próximas Mejoras
