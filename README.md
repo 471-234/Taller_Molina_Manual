@@ -61,7 +61,7 @@ Permisos por roles
 Nombre  ---------------  Rol
 Nayeri Melendres --- Desarrollador Backend
 Henry Jafet Zambrano Ortiz --- Analista de Base de Datos
-Nombre 3 --- Diseñador UI / Tester
+Mario Maldonado --- Diseñador UI / Tester
 Osman Orellana --- Documentacion
 
 # Estado del Proyecto
