@@ -6,7 +6,7 @@ Su objetivo es ofrecer una herramienta rápida, eficiente y funcional para peque
 
 ## 2. Tecnologías Utilizadas
 
-## 📚 Documentación del Proyecto
+##  Documentación del Proyecto
 
 - 👉 [Guía de Instalación](INSTALL.md)
 - 🗄️ [Base de Datos (tablas, triggers, SPs)](DATABASE.md)

@@ -1,4 +1,4 @@
-﻿# 📦 Guía de Instalación – Taller Molina
+﻿#  Guía de Instalación – Taller Molina
 
 El siguiente documento explica paso a paso cómo instalar, configurar y ejecutar el sistema **Taller Molina**, desarrollado en **C# (.NET 8)** bajo **Windows Forms**, utilizando SQL Server o MySQL como motores de base de datos.
 
