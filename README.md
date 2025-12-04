@@ -42,11 +42,13 @@ Búsqueda global
 Bitácora del sistema
 Permisos por roles
 # Equipo del Proyecto
-Nombre  ---------------  Rol
-Nayeri Melendres --- Desarrollador Backend
-Nombre 2 --- Analista de Base de Datos
-Nombre 3 --- Diseñador UI / Tester
-Nombre 4 --- Documentacion 
+| Nombre             | Rol                       |
+|--------------------|----------------------------|
+| Nayeri Melendres   | Desarrollador Backend      |
+| Nombre 2           | Analista de Base de Datos  |
+| Nombre 3           | Diseñador UI / Tester      |
+| Nombre 4           | Documentación              |
+
 # Estado del Proyecto
 Versión actual: v1.0.0
 Estado: En producción estable
