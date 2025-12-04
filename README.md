@@ -72,4 +72,4 @@ COMMENTS_GUIDE.md -> Guía de comentarios en C# y SQL
 
 
 # Taller_Molina_Manual
-Repositorio oficial para la documentación técnica y manuales de desarrolladores del proyecto Taller Molina mejórame esa información para ponerlo en el repositorio hazla muchomejor y mil veses mas profecional
+Repositorio oficial para la documentación técnica y manuales de desarrolladores del proyecto Taller Molina
