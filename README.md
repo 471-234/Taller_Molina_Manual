@@ -7,23 +7,24 @@ Su objetivo es ofrecer una herramienta rápida, eficiente y funcional para peque
 ## 2. Tecnologías Utilizadas
 
 ### 2.1 Backend / Lógica de Negocio
-C# (.NET 8 – Windows Forms)
-ADO.NET (manejo de conexiones SQL)
-Arquitectura por capas (UI – BLL – DAL)
-Motor de base de datos dual (SQL Server / MySQL)
+
+-C# (.NET 8 – Windows Forms)
+-ADO.NET (manejo de conexiones SQL)
+-Arquitectura por capas (UI – BLL – DAL)
+-Motor de base de datos dual (SQL Server / MySQL)
 
 ### 2.2 Frontend (UI)
 
-Windows Forms Modern UI
-Controles personalizados
-UserControls dinámicos
+-Windows Forms Modern UI
+-Controles personalizados
+-UserControls dinámicos
 
 # 3. Base de Datos
 
 ## 3.1 Motores Soportados
 
-SQL Server 2019 / 2022
-MySQL Server 8
+-SQL Server 2019 / 2022
+-MySQL Server 8
 
 ### 3.2 Scripts Automáticos (Auto-Healing DB)
 
