@@ -1,19 +1,18 @@
 ﻿# Base de Datos - Taller Molina
 
+Este documento describe la estructura de la base de datos del sistema Taller Molina, incluyendo tablas, relaciones y consideraciones importantes.
+
+---
+
 ## Tablas principales
 - Clientes
 - Empleados
 - Vehículos
 - Servicios
 - Facturas
-# Base de Datos - Taller Molina
-
-Este documento describe la estructura de la base de datos del sistema Taller Molina, incluyendo tablas, relaciones y consideraciones importantes.
-
----
 
 ## Motores Soportados
-- SQL Server 2019
+- SQL Server 2022
 - MySQL Server 8
 - Scripts generados automáticamente (auto-healing DB)
 

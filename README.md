@@ -6,6 +6,13 @@ Su objetivo es ofrecer una herramienta rápida, eficiente y funcional para peque
 
 ## 2. Tecnologías Utilizadas
 
+## 📚 Documentación del Proyecto
+
+- 👉 [Guía de Instalación](INSTALL.md)
+- 🗄️ [Base de Datos (tablas, triggers, SPs)](DATABASE.md)
+- 💬 [Guía de Comentarios en C# y SQL](COMMENTS_GUIDE.md)
+
+
 ### 2.1 Backend / Lógica de Negocio
 
 -C# (.NET 8 – Windows Forms)
@@ -98,6 +105,8 @@ Ampliación del módulo de proveedores
 Mejoras en el dashboard de estadísticas
 Nuevas funciones de análisis para el inventario
 Optimización general del rendimiento
+
+
 
 
 ## Estructura del repositorio

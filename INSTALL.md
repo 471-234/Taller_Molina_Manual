@@ -1,10 +1,28 @@
-﻿# Guía de Instalación - Taller Molina
+﻿# 📦 Guía de Instalación – Taller Molina
 
-## Requisitos
-- Windows 10 o superior
-- Visual Studio 2019 o 2022
-- .NET 7 SDK
-- SQL Server o MySQL
+El siguiente documento explica paso a paso cómo instalar, configurar y ejecutar el sistema **Taller Molina**, desarrollado en **C# (.NET 8)** bajo **Windows Forms**, utilizando SQL Server o MySQL como motores de base de datos.
+
+# 1. Requisitos del Sistema
+
+## 1.1 Sistema Operativo  
+- Windows 10 o Windows 11 (64 bits)
+
+## 1.2 Herramientas de Desarrollo  
+- Visual Studio 2019 o Visual Studio 2022  
+  - Workloads requeridos:
+    - *Desktop development with .NET*
+    - *Data storage and processing* (opcional)
+
+## 1.3 Framework  
+- .NET 8 SDK
+
+## 1.4 Motores de Base de Datos  
+- SQL Server 2019 / 2022  
+- MySQL Server 8
+
+# 2. Clonar el Repositorio
+
+Ejecutar en Git Bash, CMD o PowerShell:
 
 ## Instalación
 1. Clonar el repositorio:  
@@ -14,6 +32,4 @@
 4. Configurar la cadena de conexión a la base de datos en `Data/DbContext.cs`.
 5. Compilar y ejecutar la aplicación.
 
-## Base de datos
-- Ejecutar los scripts en `db/create_*` para crear la base de datos.
-- Ejecutar los scripts en `db/seed_*` para poblarla con datos de ejemplo.
+
