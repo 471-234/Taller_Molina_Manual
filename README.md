@@ -1,28 +1,41 @@
 
 
 ## TALLER MOLINA
-Sistema de Gestión Empresarial desarrollado en C# Windows Forms.
-Incluye módulos de inventario, clientes, proveedores, facturación, control de ventas y dashboard con indicadores clave.
-Diseñado para pequeñas empresas que necesiten una herramienta rápida y funcional.
+Taller Molina es un sistema empresarial desarrollado en C# (.NET 8) utilizando Windows Forms, diseñado para gestionar operaciones críticas como inventarios, clientes, proveedores, facturación, ventas y análisis mediante dashboard.
+Su objetivo es ofrecer una herramienta rápida, eficiente y funcional para pequeñas empresas del rubro automotriz.
 
-## Tecnologías Utilizadas
-- Backend / Lógica de Negocio
-- C# (.NET 8) – Windows Forms
-- ADO.NET para conexión a base de datos
-- SQL Server 2019 / MySQL 8 (motor dual seleccionable)
-### Frontend (UI)
-- Windows Forms Modern UI
-- Controles personalizados y UserControls dinámicos
-# Base de Datos
-## Motores Soportados
-- SQL Server 2019
-- MySQL Server 8
-- Scripts generados automáticamente (auto-healing DB)
-### Los scripts permiten:
-- Crear base de datos
-- Insertar datos iniciales
-- Reparar tablas inconsistentes
-## Tablas principales
+## 2. Tecnologías Utilizadas
+
+### 2.1 Backend / Lógica de Negocio
+C# (.NET 8 – Windows Forms)
+ADO.NET (manejo de conexiones SQL)
+Arquitectura por capas (UI – BLL – DAL)
+Motor de base de datos dual (SQL Server / MySQL)
+
+### 2.2 Frontend (UI)
+
+Windows Forms Modern UI
+Controles personalizados
+UserControls dinámicos
+
+# 3. Base de Datos
+
+## 3.1 Motores Soportados
+
+SQL Server 2019 / 2022
+MySQL Server 8
+
+### 3.2 Scripts Automáticos (Auto-Healing DB)
+
+Los scripts permiten:
+-Crear la base de datos automáticamente
+-Generar tablas principales
+-Insertar datos iniciales
+-Verificar integridad
+-Reparar tablas inconsistentes
+
+## 3.3 Tablas Principales
+
 - CLIENTES
 - EMPLEADOS
 - SERVICIOS
@@ -30,17 +43,30 @@ Diseñado para pequeñas empresas que necesiten una herramienta rápida y funcio
 - FACTURAS
 - DETALLE_FACTURA
 - PAGOS
-# Pruebas
-## Usuarios de prueba
-Admin: admin / 2006
-## Casos críticos a validar
-Registro de facturas
-Registro de pagos (Factura tipo PAGO)
-Crear factura de servicio
-Actualización de inventario al registrar un servicio
-Búsqueda global
-Bitácora del sistema
-Permisos por roles
+  
+# 4. Pruebas del Sistema
+## 4.1 Usuario de Prueba
+Admin/Desarrollador
+Usuario: admin
+Contraseña: 2006
+
+## 4.2 Casos Críticos a Validar
+
+-Registro de facturas
+-Registro de pagos (Factura tipo PAGO)
+-Creación de factura por servicio
+-Descuento del inventario al facturar
+-Funcionamiento de búsqueda global
+-Bitácora del sistema
+-Permisos por roles4.2 Casos Críticos a Validar
+-Registro de facturas
+-Registro de pagos (Factura tipo PAGO)
+-Creación de factura por servicio
+-Descuento del inventario al facturar
+-Funcionamiento de búsqueda global
+-Bitácora del sistema
+-Permisos por roles
+
 # Equipo del Proyecto
 
 | Nombre            | Rol                        |
@@ -51,25 +77,35 @@ Permisos por roles
 | Osman Orellana    | Documentación              |
 
 
-# Estado del Proyecto
+# 6. Estado del Proyecto
+
 Versión actual: v1.0.0
-Estado: En producción estable
-Próximas mejoras:
-Módulo de proveedores ampliado
-Mejoras en dashboard de estadísticas
+Estado: Estable – En producción
+
+# 6.1 Próximas Mejoras
+
+Ampliación del módulo de proveedores
+Mejoras en el dashboard de estadísticas
+Nuevas funciones de análisis para el inventario
+Optimización general del rendimiento
 
 
 ## Estructura del repositorio
 
-src/ -> Código fuente del proyecto
-docs/ -> Documentación técnica y diagramas
-README.md -> Portada del proyecto y descripción general
-INSTALL.md -> Cómo instalar y ejecutar el sistema
-DATABASE.md -> Detalle de la base de datos (tablas, triggers, SPs)
-COMMENTS_GUIDE.md -> Guía de comentarios en C# y SQL
+1. src/ -> Código fuente del proyecto
+2. docs/ -> Documentación técnica y diagramas
+3. README.md -> Portada del proyecto y descripción general
+4. INSTALL.md -> Cómo instalar y ejecutar el sistema
+5. DATABASE.md -> Detalle de la base de datos (tablas, triggers, SPs)
+6. COMMENTS_GUIDE.md -> Guía de comentarios en C# y SQL
 
 
+# 8. Taller_Molina_Manual
 
-
-# Taller_Molina_Manual
-Repositorio oficial para la documentación técnica y manuales de desarrolladores del proyecto Taller Molina
+1. Repositorio oficial destinado a centralizar:
+2. Manual técnico para desarrolladores
+3. Manual de usuario final
+4. Diagramas UML y documentación visual
+5. Guías de instalación y despliegue
+6.Estándares de programación
+7. Información estructurada del proyecto
